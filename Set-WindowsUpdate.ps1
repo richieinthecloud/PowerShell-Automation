@@ -1,7 +1,7 @@
 # ==============================================================================
 # Set-WindowsUpdate.ps1
 # Installs approved Windows updates while enforcing a hard version ceiling.
-# Machines are locked to Windows 11 24H2 via registry policy so the OS-level
+# Machines are capped to Windows 11 24H2 via registry policy so the OS-level
 # Windows Update stack itself will never offer 25H2, regardless of how updates
 # are triggered. Script-level title filtering acts as a secondary safety net.
 # ==============================================================================
